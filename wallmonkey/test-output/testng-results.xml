@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WallmonkeySuite" duration-ms="29785" started-at="2018-10-24T19:12:55Z" finished-at="2018-10-24T19:13:25Z">
+    <groups>
+      <group name="Login">
+        <method signature="LoginTest.loginwithvalid()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="loginwithvalid" class="com.wallmonkey.test.LoginTest"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="WallmonkeyScript" duration-ms="29785" started-at="2018-10-24T19:12:55Z" finished-at="2018-10-24T19:13:25Z">
+      <class name="com.wallmonkey.test.LoginTest">
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="driversetup" is-config="true" duration-ms="14823" started-at="2018-10-25T00:42:55Z" finished-at="2018-10-25T00:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="loginwithvalid()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="loginwithvalid" duration-ms="14413" started-at="2018-10-25T00:43:10Z" description="Test the login functionality with valid credentials" finished-at="2018-10-25T00:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalid -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="teardown" is-config="true" duration-ms="514" started-at="2018-10-25T00:43:25Z" finished-at="2018-10-25T00:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.wallmonkey.test.LoginTest -->
+    </test> <!-- WallmonkeyScript -->
+  </suite> <!-- WallmonkeySuite -->
+</testng-results>
