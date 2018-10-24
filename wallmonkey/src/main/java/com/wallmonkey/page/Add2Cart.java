@@ -14,4 +14,9 @@ public class Add2Cart extends Utility
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	public void additemtocart()
+	{
+		System.out.println("We are in add Item to cart method");
+	}
 }
