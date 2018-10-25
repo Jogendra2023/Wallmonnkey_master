@@ -19,6 +19,18 @@ public class LoginPage extends Utility
 	@FindBy(how=How.ID, using="CustomerEmail")
 	WebElement email;
 	
+//Password filed at Login screen***************************************
+	@FindBy(how = How.ID, using="CustomerPassword")
+	WebElement password;
+	
+//Sign In buton at Login Screen*****************************************
+	@FindBy(how = How.XPATH, using="//input[@value='Sign In']")
+	WebElement SingIn;
+	
+//Logout button at Myaccount screen***********************************
+	@FindBy(how = How.ID, using="customer_logout_link")
+	WebElement Logout;
+	
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -33,5 +45,10 @@ public class LoginPage extends Utility
 		fluent_wait_by_visibility_of_element(login);
 		login.click();
 		fluent_wait_by_visibility_of_element(email);
+		email.sendKeys(getproperties("email"));
+		password.clear();
+		password.sendKeys(getproperties("password"));
+		SingIn.click();
+		fluent_wait_by_visibility_of_element(Logout);
 	}
 }

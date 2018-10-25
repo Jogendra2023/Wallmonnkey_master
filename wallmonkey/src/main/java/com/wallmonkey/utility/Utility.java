@@ -82,7 +82,7 @@ public class Utility
 	public void fluent_wait_by_visibility_of_element(WebElement element)
 	{
 		
-		Wait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(180)).pollingEvery(Duration.ofSeconds(5)).
+		Wait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(60)).pollingEvery(Duration.ofSeconds(5)).
 						ignoring(NoSuchElementException.class);
 		
 		wait.until(ExpectedConditions.visibilityOf(element));
