@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13714" started-at="2018-10-25T20:22:52Z" finished-at="2018-10-25T20:23:06Z">
+  <suite name="Default suite" duration-ms="28225" started-at="2018-10-25T21:35:31Z" finished-at="2018-10-25T21:35:59Z">
     <groups>
-      <group name="Login">
-        <method signature="LoginTest.loginwithvalid()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="loginwithvalid" class="com.wallmonkey.test.LoginTest"/>
-      </group> <!-- Login -->
+      <group name="cart">
+        <method signature="Add2CartTest.additemtocart()[pri:0, instance:com.wallmonkey.test.Add2CartTest@5b275dab]" name="additemtocart" class="com.wallmonkey.test.Add2CartTest"/>
+      </group> <!-- cart -->
     </groups>
-    <test name="Default test" duration-ms="13714" started-at="2018-10-25T20:22:52Z" finished-at="2018-10-25T20:23:06Z">
-      <class name="com.wallmonkey.test.LoginTest">
-        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="driversetup" is-config="true" duration-ms="4350" started-at="2018-10-26T01:52:52Z" finished-at="2018-10-26T01:52:57Z">
+    <test name="Default test" duration-ms="28225" started-at="2018-10-25T21:35:31Z" finished-at="2018-10-25T21:35:59Z">
+      <class name="com.wallmonkey.test.Add2CartTest">
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.wallmonkey.test.Add2CartTest@5b275dab]" name="driversetup" is-config="true" duration-ms="4451" started-at="2018-10-26T03:05:31Z" finished-at="2018-10-26T03:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driversetup -->
-        <test-method status="PASS" signature="loginwithvalid()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="loginwithvalid" duration-ms="9067" started-at="2018-10-26T01:52:57Z" description="Test the login functionality with valid credentials" finished-at="2018-10-26T01:53:06Z">
+        <test-method status="PASS" signature="additemtocart()[pri:0, instance:com.wallmonkey.test.Add2CartTest@5b275dab]" name="additemtocart" duration-ms="23492" started-at="2018-10-26T03:05:35Z" description="Adding Item to Cart" finished-at="2018-10-26T03:05:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithvalid -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wallmonkey.test.LoginTest@5b275dab]" name="teardown" is-config="true" duration-ms="261" started-at="2018-10-26T01:53:06Z" finished-at="2018-10-26T01:53:06Z">
+        </test-method> <!-- additemtocart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wallmonkey.test.Add2CartTest@5b275dab]" name="teardown" is-config="true" duration-ms="263" started-at="2018-10-26T03:05:59Z" finished-at="2018-10-26T03:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.wallmonkey.test.LoginTest -->
+      </class> <!-- com.wallmonkey.test.Add2CartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

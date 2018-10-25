@@ -41,7 +41,7 @@ public class LoginPage extends Utility
 	public void login()
 	{
 		System.out.println("Inside the Login Page class");
-		driver.get(getproperties("baseurl"));
+		
 		fluent_wait_by_visibility_of_element(login);
 		login.click();
 		fluent_wait_by_visibility_of_element(email);

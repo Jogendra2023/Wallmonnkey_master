@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import com.wallmonkey.page.Add2Cart;
+import com.wallmonkey.page.Add2Cartpage;
 import com.wallmonkey.page.LoginPage;
 
 
@@ -29,7 +29,7 @@ public class Utility
 	
 	public WebDriver driver;
 	public LoginPage login_page;
-	public Add2Cart Add2Cart_page;
+	public Add2Cartpage Add2Cart_page;
 	
 	@BeforeTest
 	public void driversetup()
@@ -38,7 +38,7 @@ public class Utility
 		
 		//creating Object of the classes.
 				login_page = new LoginPage(driver);
-				Add2Cart_page = new Add2Cart(driver);
+				Add2Cart_page = new Add2Cartpage(driver);
 	}
 	public void launchrowser()
 	{	
